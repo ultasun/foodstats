@@ -9,7 +9,7 @@ Thanks for reading!
 
 # Installing
 #### Automatic
-A *Docker* image is available [on the hub].
+A *Docker* image is available [on the hub](https://hub.docker.com/r/ultasun/foodstats).
 
 `docker run -it ultasun/foodstats`
 
