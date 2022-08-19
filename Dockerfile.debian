@@ -1,0 +1,26 @@
+# --- HOW TO USE ------
+# following these instructions will give you a console I/O interface
+# 1) $ docker build -t foodstats .
+# 2) There are now 3 ways to start up this image
+# 3a) $ docker run -v "$(pwd)/data:/app/data" -it foodstats
+# 3b) $ docker run -v foodstats-db:/app/data -it foodstats
+# 3c) $ docker run -v "$(pwd):/app" -it foodstats
+# 4) The container can be restarted after the initial exit as needed
+# 4a) $ docker start -i foodstats
+#
+# Note that:
+#      * 3a starts the system with sample data
+#      * 3b starts the system with no data
+#      * 3c starts the system in "development mode" such that
+#      	    source files in the bind mound may be re-loaded by restarting the container.
+#	    	   ( as in '4a')
+
+FROM debian
+RUN apt-get update ; apt-get -y upgrade ; apt-get -y install clisp
+RUN useradd -m -d /app -s /bin/sh -u 11111 foodstats
+WORKDIR /app
+COPY . .
+USER 11111
+# CMD ["sh"]
+# CMD ["clisp", "-repl"]
+CMD ["clisp", "-repl", "foodstats.lisp"]
