@@ -1,11 +1,9 @@
 # Foodstats
 #### A utility for tracking animal nutrition facts
 
-*Foodstats* is a **theme** which is appreciated by [ultasun](https://github.com/ultasun) when practicing a programming language (or paradigm). This version of *Foodstats*  is to practice the [*functional programming paradigm*](https://en.wikipedia.org/wiki/Functional_programming) whilst utilizing [*Common Lisp*](https://en.wikipedia.org/wiki/Common_Lisp).
+*Foodstats* is a **theme** which is appreciated by [*ultasun*](https://github.com/ultasun) when practicing a programming language (or paradigm). This version of *Foodstats*  is to practice the [*functional programming paradigm*](https://en.wikipedia.org/wiki/Functional_programming) whilst utilizing [*Common Lisp*](https://en.wikipedia.org/wiki/Common_Lisp).
 
 If you are a subject area expert of those three topics (nutrition, *functional programming*, or *Common Lisp*), then I would appreciate any feedback! Feel free to open an issue in the issue tracker, or message me directly. 
-
-Thanks for reading!
 
 # Installing
 #### Automatic
