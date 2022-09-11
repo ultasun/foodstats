@@ -17,7 +17,7 @@ The data produced during runtime is saved in the `/app/data` directory, so it ma
 
 #### Manual Installation
 
-As of this writing, the author has written the entire system in [GNU Clisp 2.49](https://www.gnu.org/software/clisp/), it is not tested in any other *Common Lisp* implementation.
+As of this writing, the author has written the entire system in [GNU Clisp 2.49](https://www.gnu.org/software/clisp/).  The author has also tested the program under [Armed Bear Common Lisp 1.9.0](https://armedbear.common-lisp.dev).
 
 1. Clone the repository
 2. Run
@@ -29,6 +29,10 @@ As of this writing, the author has written the entire system in [GNU Clisp 2.49]
 After starting the program, the user is presented with a number menu. Generally, the user would start with lower-numbered options, and work their way up. Good luck!
 
 The author uses the system to track their personal dietary habits.
+
+# Roadmap
+
+Possibly recycle this into a distributable *.jar* so the core functionality becomes accessible to a more popular framework such as *Spring*.
 
 # Credits / Support 
 
