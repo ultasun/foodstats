@@ -30,12 +30,6 @@ After starting the program, the user is presented with a number menu. Generally,
 
 The author uses the system to track their personal dietary habits.
 
-# Roadmap
-
-Possibly recycle this into a distributable *.jar* so the core functionality becomes accessible to a more popular framework such as *Spring*.
-
-Use weblocks to create a web interface.
-
 # Credits / Support 
 
 This is *alpha* quality software. Please feel free to submit bugs in the issue tracker!
