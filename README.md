@@ -3,7 +3,7 @@
 
 *Foodstats* is a **theme** which is appreciated by [*ultasun*](https://github.com/ultasun) when practicing a programming language (or paradigm). This version of *Foodstats*  is to practice the [*functional programming paradigm*](https://en.wikipedia.org/wiki/Functional_programming) whilst utilizing [*Common Lisp*](https://en.wikipedia.org/wiki/Common_Lisp).
 
-If you are a subject area expert of those three topics (nutrition, *functional programming*, or *Common Lisp*), then I would appreciate any feedback! Feel free to open an issue in the issue tracker, or message me directly. 
+If you are a subject area expert of those three topics (nutrition, *functional programming*, or *Common Lisp*), then I would appreciate any feedback! Feel free to open an issue in the issue tracker, or [message me directly](#Credits). 
 
 # Installing
 #### Automatic
@@ -30,7 +30,7 @@ After starting the program, the user is presented with a number menu. Generally,
 
 The author uses the system to track their personal dietary habits.
 
-# Credits / Support 
+# Credits
 
 This is *alpha* quality software. Please feel free to submit bugs in the issue tracker!
 
