@@ -537,20 +537,6 @@ Returns an association list."
    recipe-cook-stamp
    (cdr (assoc recipe-name alist-recipe-leftover :test #'equalp))))
 
-;; recursive function to add up the grams of the UPC's in alist-upc-leftover
-;; which fulfill a certain role alias
-;; this function is used by
-;; #'convert-recipe-role-alias-keys-to-upc-keys-sum-leftover
-(defun get-upc-percentages-from-upc-leftover
-    (alist-upc
-     alist-recipe
-     alist-inventory
-     alist-role-alias
-     alist-upc-leftover
-     recipe-using-role-aliases)
-  ""
-  )
-
 ;; "how to use mapcar to search" (as opposed to list-eater search)
 (defun get-role-alias-from-leftover
     (alist-upc
