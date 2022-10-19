@@ -312,19 +312,23 @@ search the first argument for all the UPC's which had been used
     alist-history)))
 
 (defun get-role-alias-upc-list (alist-role-alias role-alias)
-  ""
+  "Given the association list mapping role-aliases to a list of UPC's which
+fulfill that alias, and a role-alias to look up, return the list of UPC's which
+are fulfilled by that role-alias."
   (cdr (assoc role-alias alist-role-alias :test #'equalp)))
 
 (defun get-role-alias-last-upc-ignore-inventory
     (alist-role-alias
      role-alias)
-  ""
+  "Returns the last UPC assigned to a role-alias list, using the function
+GET-ROLE-ALIAS-UPC-LIST to retrieve the entire role-alias UPC list."
   (car (last (get-role-alias-upc-list alist-role-alias role-alias))))
 
 (defun get-role-alias-first-upc-ignore-inventory
     (alist-role-alias
      role-alias)
-  ""
+  "Returns the first UPC in the role-alias UPC list, using the function
+GET-ROLE-ALIAS-UPC-LIST to retrieve the entire role-alias UPC list."
   (first (get-role-alias-upc-list alist-role-alias role-alias)))
 
 (defun get-role-alias-upc-has-inventory
