@@ -226,7 +226,7 @@ Adds two dimensional units, returns a dimensional unit in grams."
        (date-groups
 	(get-inventory-date-group
 	 alist-inventory upc)))
-  ""
+  "Recursively search the alist-inventory association list for a UPC with the most-recently-added date-group with an inventory quantity greater than zero."
   (if
    date-groups
    (if
@@ -253,7 +253,7 @@ Adds two dimensional units, returns a dimensional unit in grams."
        (price-groups
 	(get-inventory-price-group
 	 alist-inventory upc date)))
-  ""
+  "Recursively search the alist-inventory association list for the most-recently added price-group within a date-group with an inventory quantity greater than zero. "
   (if
    price-groups ;; needs to end the recursive search
    (if
